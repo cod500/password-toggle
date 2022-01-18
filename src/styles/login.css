@@ -1,0 +1,53 @@
+.login {
+  width: 30%;
+  border-radius: 8px;
+  padding: 25px 10px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+.login input {
+  padding: 1rem;
+  margin: 5px 0 5px 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+  border-radius: 3px;
+  border: 1px solid #777;
+  outline: none;
+}
+
+.btn {
+  background: var(--color-orange);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 6px 8px;
+  margin: 0 5px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.password {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+  margin: 5px 0 5px 0;
+}
